@@ -1,0 +1,15 @@
+*{
+    padding: 4px 3px;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: monospace;
+}
+
+body {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 5rem 1fr 6rem;
+}
